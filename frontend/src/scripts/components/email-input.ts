@@ -58,7 +58,7 @@ function getGermanVerseRegex() {
   return new RegExp(`(${prefix})${suffix}`, "gmi");
 }
 
-function getGermanEnglishMap(): Record<string, string> {
+export function getGermanEnglishMap(): Record<string, string> {
   return {
     "1 Mose": "Genesis",
     "2 Mose": "Exodus",
@@ -79,6 +79,7 @@ function getGermanEnglishMap(): Record<string, string> {
     Esther: "Esther",
     Hiob: "Job",
     Psalm: "Psalms",
+    Psalmen: "Psalms",
     Sprüche: "Proverbs",
     Prediger: "Ecclesiastes",
     Hoheslied: "Song of Solomon",

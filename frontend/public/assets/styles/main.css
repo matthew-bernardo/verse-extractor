@@ -20,7 +20,7 @@ email-input {
   display: block;
   width: 100%;
   box-sizing: border-box;
-  padding: 3em; }
+  padding: 3vw; }
   email-input textarea {
     box-sizing: border-box;
     width: 100%;
@@ -30,7 +30,7 @@ email-input {
 verse-renderer {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 3em;
+  padding: 0 3vw;
   justify-content: center; }
   verse-renderer .chip {
     margin: 6px;
