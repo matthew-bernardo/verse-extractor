@@ -1,0 +1,49 @@
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body,
+textarea {
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+email-input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 3em;
+  textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em;
+    height: 30vh;
+  }
+}
+
+verse-renderer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 3em;
+  justify-content: center;
+  .chip {
+    margin: 6px;
+    padding: 6px 12px;
+    border: 1px solid #333;
+    color: #333;
+    border-radius: 24px;
+    text-decoration: none;
+    &:hover {
+      color: white;
+      background: #333;
+    }
+  }
+}

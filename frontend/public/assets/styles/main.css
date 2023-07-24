@@ -1,0 +1,45 @@
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main.scss ***!
+  \*************************************************************************************************************************************************************************************/
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0; }
+
+body,
+textarea {
+  font-family: "Noto Sans", sans-serif; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+email-input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 3em; }
+  email-input textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em;
+    height: 30vh; }
+
+verse-renderer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 3em;
+  justify-content: center; }
+  verse-renderer .chip {
+    margin: 6px;
+    padding: 6px 12px;
+    border: 1px solid #333;
+    color: #333;
+    border-radius: 24px;
+    text-decoration: none; }
+    verse-renderer .chip:hover {
+      color: white;
+      background: #333; }
+
